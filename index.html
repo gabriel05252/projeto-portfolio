@@ -8,128 +8,276 @@
     <link rel="stylesheet" href="estilos/style.css">
     <link rel="shortcut icon" href="favicon.svg" type="image/x-icon">
     <script src="https://kit.fontawesome.com/7592035a70.js" crossorigin="anonymous"></script>
-</head>
 
-<body>
-    <header>
-        <nav id="menu">
-            <ul>
-                <li><a href="#"><i class="fa-solid fa-house"></i></a></li>
-                <li><a href="#"><i class="fa-solid fa-brain"></i></a></li>
-                <li><a href="#"><i class="fa-solid fa-graduation-cap"></i></a></li>
-                <li><a href="#"><i class="fa-solid fa-trowel-bricks"></i></a></li>
-                <li><a href="#"><i class="fa-solid fa-moon"></i></a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <section id="ficha">
-            <img src="imagens/guanabara-perfil.jpg" alt="gustavoguanabara" class="foto">
-            <h1>Gustavo Guanabara</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo similique delectus esse ad laboriosam
-                beatae? Commodi, nesciunt aperiam ducimus obcaecati laboriosam quisquam. Nulla, odio. Recusandae natus
-                facilis molestias praesentium qui?</p>
-            <div id="social">
-                <a href="https://br.linkedin.com/in/guanabara" target="_blank" rel="nofollow"><i
-                        class="fa-brands fa-linkedin"></i></a>
-                <a href="https://gustavoguanabara.github.io/" target="_blank" rel="nofollow"><i
-                        class="fa-brands fa-github"></i></a>
-                <a href="https://www.youtube.com/@cursoemvideo" target="_blank" rel="nofollow"><i
-                        class="fa-brands fa-youtube"></i></a>
-                <a href="https://www.instagram.com/gustavoguanabara/" target="_blank" rel="nofollow"><i
-                        class="fa-brands fa-instagram"></i></a>
-                <a href="https://www.cursoemvideo.com/" target="_blank" rel="nofollow"><i
-                        class="fa-solid fa-globe"></i></a>
-            </div>
+    <head>
 
-        </section>
-
-        <section id="detalhes">
-            <article id="video"> <!--Fim article#video-->
-                <h2><i class="fa-solid fa-handshake"></i>Deixe-me apresentar</h2>
-                <div class="video-container">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/KG5-4FOukTo?si=jWp1Ezcmmcc1K120"
-                        title="YouTube video player" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <body>
+        <header>
+            <nav id="menu">
+                <ul>
+                    <li><a href="#video" class="link"><i class="fa-solid fa-house"></i></a></li>
+                    <li><a href="#skills" class="link"><i class="fa-solid fa-brain"></i></a></li>
+                    <li><a href="#formacao" class="link"><i class="fa-solid fa-graduation-cap"></i></a></li>
+                    <li><a href="#projetos" class="link"><i class="fa-solid fa-trowel-bricks"></i></a></li>
+                    <li><a href="#" id="botao-tema"><i class="fa-solid fa-moon"></i></a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section id="ficha">
+                <img src="imagens/guanabara-perfil.jpg" alt="gustavoguanabara" class="foto">
+                <h1>Gustavo Guanabara</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo similique delectus esse ad laboriosam
+                    beatae? Commodi, nesciunt aperiam ducimus obcaecati laboriosam quisquam. Nulla, odio. Recusandae
+                    natus
+                    facilis molestias praesentium qui?</p>
+                <div id="social">
+                    <a href="https://br.linkedin.com/in/guanabara" target="_blank" rel="nofollow"><i
+                            class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://gustavoguanabara.github.io/" target="_blank" rel="nofollow"><i
+                            class="fa-brands fa-github"></i></a>
+                    <a href="https://www.youtube.com/@cursoemvideo" target="_blank" rel="nofollow"><i
+                            class="fa-brands fa-youtube"></i></a>
+                    <a href="https://www.instagram.com/gustavoguanabara/" target="_blank" rel="nofollow"><i
+                            class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.cursoemvideo.com/" target="_blank" rel="nofollow"><i
+                            class="fa-solid fa-globe"></i></a>
                 </div>
-            </article>
-            <article id="skills"><!--Fim article#skills-->
-                <h2><i class="fa-solid fa-brain"></i>Minhas Skills</h2>
-                <div id="skill-container">
-                    <div class="item">
-                        <div class="info">
-                            <span class="nome">
-                                HTML5
-                            </span>
-                            <span class="porcent">
-                                90%
-                            </span>
-                        </div>
-                        <div class="barra">
-                            <div class="progresso" style="width: 90% ;">
 
+            </section>
+
+            <section id="detalhes">
+                <article id="video"> <!--Fim article#video-->
+                    <h2><i class="fa-solid fa-handshake"></i>Deixe-me apresentar</h2>
+                    <div class="video-container">
+                        <iframe width="260" height="115"
+                            src="https://www.youtube.com/embed/KG5-4FOukTo?si=jWp1Ezcmmcc1K120"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                </article>
+                <article id="skills"><!--Fim article#skills-->
+                    <h2><i class="fa-solid fa-brain"></i>Minhas Skills</h2>
+                    <div id="skill-container">
+                        <div class="item">
+                            <div class="info">
+                                <span class="nome">
+                                    HTML5
+                                </span>
+                                <span class="porcent">
+                                    90%
+                                </span>
+                            </div>
+                            <div class="barra">
+                                <div class="progresso" style="width: 90% ;">
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="info">
+                                <span class="nome">
+                                    CSS3
+                                </span>
+                                <span class="porcent">
+                                    74%
+                                </span>
+                            </div>
+                            <div class="barra">
+                                <div class="progresso" style="width: 74% ;">
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="info">
+                                <span class="nome">
+                                    JAVASCRIPT
+                                </span>
+                                <span class="porcent">
+                                    65%
+                                </span>
+                            </div>
+                            <div class="barra">
+                                <div class="progresso" style="width: 65% ;">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="info">
+                                <span class="nome">
+                                    COMUNIÇÃO
+                                </span>
+                                <span class="porcent">
+                                    80%
+                                </span>
+                            </div>
+                            <div class="barra">
+                                <div class="progresso" style="width: 80% ;">
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="item">
-                        <div class="info">
-                            <span class="nome">
-                                CSS3
-                            </span>
-                            <span class="porcent">
-                                74%
-                            </span>
+                </article>
+                <article id="formacao"><!--Fim articleformacao-->
+                    <h2><i class="fa-solid fa-graduation-cap"></i>Formação</h2>
+                    <div id="formacao-container">
+                        <div class="curso">
+                            <p class="periodo">
+                            <p>1991-1954</p>
+                            </p>
+                            <p class="instituicao">
+                            <h3>Escola Tecnica Carioca</h3>
+                            </p>
+                            <p class="titulacao">
+                            <p>Tecnico em informatica</p>
+                            </p>
                         </div>
-                        <div class="barra">
-                            <div class="progresso" style="width: 74% ;">
+                        <div id="formacao-container">
+                            <div class="curso">
+                                <p class="periodo">
+                                <p>2002-2006</p>
+                                </p>
+                                <p class="instituicao">
+                                <h3>Bacharelado</h3>
+                                </p>
+                                <p class="titulacao">
+                                <p>Ciencia da Computação</p>
+                                </p>
+                            </div>
+                            <div id="formacao-container">
+                                <div class="curso">
+                                    <p class="periodo">
+                                    <p>2008-2013</p>
+                                    </p>
+                                    <p class="instituicao">
+                                    <h3>Pós-Graduação</h3>
+                                    </p>
+                                    <p class="titulacao">
+                                    <p>Ciencia da Computação</p>
+                                    </p>
+                                </div>
 
                             </div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="info">
-                            <span class="nome">
-                                JAVASCRIPT
-                            </span>
-                            <span class="porcent">
-                                65%
-                            </span>
-                        </div>
-                        <div class="barra">
-                            <div class="progresso" style="width: 65% ;">
+                </article>
+                <article id="projetos"><!--Fim article#projetos-->
+                    <h2> <i class="fa-solid fa-trowel-bricks"></i> Projetos</h2>
+                    <div id="projeto-container">
+                        <div class="projeto"> <!--projeto 01-->
+                            <img src="imagens/projeto-01-videos.jpg" alt="projeto-01" class="foto">
+                            <div class="projeto-info">
+                                <p class="periodo">2025</p>
+                                <h3 class="titulo">
+                                    Projeto de Videos
+                                </h3>
+                                <p>Projeto construido para treinar a inserção de videos no site</p>
+                                <details class="descricao">
+                                    <summary>Saiba mais...</summary>
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae, at
+                                        mollitia
+                                        sed animi voluptas, temporibus aperiam, alias velit totam voluptates est ipsa
+                                        accusamus rerum tempora quibusdam vero! Nihil, atque reprehenderit?</p>
+                                </details>
                             </div>
                         </div>
-                    </div>
-                    <div class="item">
-                        <div class="info">
-                            <span class="nome">
-                                COMUNIÇÃO
-                            </span>
-                            <span class="porcent">
-                                80%
-                            </span>
-                        </div>
-                        <div class="barra">
-                            <div class="progresso" style="width: 80% ;">
+                        <div class="projeto"> <!--projeto-02-->
+                            <img src="imagens/projeto-03-android.jpg" alt="projeto-02" class="foto">
+                            <div class="projeto-info">
+                                <p class="periodo">2025</p>
+                                <h3 class="titulo">
+                                    Projeto Android
+                                </h3>
+                                <p>Projeto construido para treinar HTML e CSS</p>
+                                <details class="descricao">
+                                    <summary>Saiba mais...</summary>
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae, at
+                                        mollitia
+                                        sed animi voluptas, temporibus aperiam, alias velit totam voluptates est ipsa
+                                        accusamus rerum tempora quibusdam vero! Nihil, atque reprehenderit?</p>
+                                </details>
                             </div>
                         </div>
+                        <div class="projeto"> <!--projeto 03-->
+                            <img src="imagens/projeto-02-cordel.jpg" alt="projeto-03" class="foto">
+                            <div class="projeto-info">
+                                <p class="periodo">2025</p>
+                                <h3 class="titulo">
+                                    Projeto Cordel
+                                </h3>
+                                <p>Projeto construido para treinar Background </p>
+                                <details class="descricao">
+                                    <summary>Saiba mais...</summary>
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae, at
+                                        mollitia
+                                        sed animi voluptas, temporibus aperiam, alias velit totam voluptates est ipsa
+                                        accusamus rerum tempora quibusdam vero! Nihil, atque reprehenderit?</p>
+                                </details>
+                            </div>
+                        </div>
+                        <div class="projeto"> <!--projeto 04-->
+                            <img src="imagens/projeto-04-links.jpg" alt="projeto-01" class="foto">
+                            <div class="projeto-info">
+                                <p class="periodo">2025</p>
+                                <h3 class="titulo">
+                                    Projeto Link
+                                </h3>
+                                <p>Projeto construido para treinar Iframes e Links</p>
+                                <details class="descricao">
+                                    <summary>Saiba mais...</summary>
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae, at
+                                        mollitia
+                                        sed animi voluptas, temporibus aperiam, alias velit totam voluptates est ipsa
+                                        accusamus rerum tempora quibusdam vero! Nihil, atque reprehenderit?</p>
+                                </details>
+                            </div>
+
+                        </div>
+                        <div class="projeto"> <!--projeto 05-->
+                            <img src="imagens/projeto-05-login.jpg" alt="projeto-01" class="foto">
+                            <div class="projeto-info">
+                                <p class="periodo">2025</p>
+                                <h3 class="titulo">
+                                    Projeto Login
+                                </h3>
+                                <p>Projeto criado para treinar inputs</p>
+                                <details class="descricao">
+                                    <summary>Saiba mais...</summary>
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae, at
+                                        mollitia
+                                        sed animi voluptas, temporibus aperiam, alias velit totam voluptates est ipsa
+                                        accusamus rerum tempora quibusdam vero! Nihil, atque reprehenderit?</p>
+                                </details>
+                            </div>
+
+                        </div>
+                        <div class="projeto"> <!--projeto 06-->
+                            <img src="imagens/projeto-06-album.jpg" alt="projeto-01" class="foto">
+                            <div class="projeto-info">
+                                <p class="periodo">2025</p>
+                                <h3 class="titulo">
+                                    Projeto Album
+                                </h3>
+                                <p>Projeto construido para treinar Grid</p>
+                                <details class="descricao">
+                                    <summary>Saiba mais...</summary>
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae, at
+                                        mollitia
+                                        sed animi voluptas, temporibus aperiam, alias velit totam voluptates est ipsa
+                                        accusamus rerum tempora quibusdam vero! Nihil, atque reprehenderit?</p>
+                                </details>
+                            </div>
+
+                        </div>
                     </div>
-                </div>
-            </article>
-            <article id="formacao"><!--Fim articleformacao-->
-                <h2><i class="fa-solid fa-graduation-cap"></i>Formação</h2>
-            </article>
-            <article id="projetos"><!--Fim article#projetos-->
-                <h2> <i class="fa-solid fa-trowel-bricks"></i> Projetos</h2>
-
-            </article>
-        </section>
-    </main>
-    <footer>
-
-    </footer>
-    <script src="scripts/script.js"></script>
-</body>
+                </article>
+            </section>
+        </main>
+        <footer>
+            Projeto desenvolvido por <a href="https://www.cursoemvideo.com/" target="blank" rel="nofollow">Curso em
+                video</a>
+        </footer>
+        <script src="scripts/script.js"></script>
+    </body>
 
 </html>
